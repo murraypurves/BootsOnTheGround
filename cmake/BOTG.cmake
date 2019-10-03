@@ -574,7 +574,6 @@ MACRO( botgProject )
         SET(PROJECT_VERSION "0.0.0")
     ENDIF()
     PROJECT( "${PROJECT_NAME}"
-        VERSION "${PROJECT_VERSION}"
         LANGUAGES NONE
     )
 
