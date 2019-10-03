@@ -16,7 +16,7 @@ MESSAGE( STATUS "[BootsOnTheGround] downloading BootsOnTheGround...")
 INCLUDE(ExternalProject)
 ExternalProject_Add( download-external-BootsOnTheGround
   GIT_REPOSITORY
-    https://github.com/wawiesel/BootsOnTheGround.git
+    https://github.com/murraypurves/BootsOnTheGround.git
   GIT_TAG
     master
   SOURCE_DIR
